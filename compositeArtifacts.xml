@@ -1,12 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?compositeArtifactRepository version='1.0.0'?>
-<repository name='&quot;Eclipse Project Test Site&quot;'
+<repository name='&quot;jcup eclipse plugins collection site&quot;'
     type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
   <properties size='1'>
     <property name='p2.timestamp' value='1243822502440'/>
   </properties>
   <children size='2'>
-    <child location='childOne'/>
-    <child location='childTwo'/>
+    <child location='https://dl.bintray.com/de-jcup/asciidoctoreditor'/>
+    <child location='https://dl.bintray.com/de-jcup/basheditor'/>
+    <child location='https://dl.bintray.com/de-jcup/batcheditor'/>
+    <child location='https://dl.bintray.com/de-jcup/egradle/'/>
+    <child location='https://dl.bintray.com/de-jcup/jenkinseditor'/>
   </children>
 </repository>
