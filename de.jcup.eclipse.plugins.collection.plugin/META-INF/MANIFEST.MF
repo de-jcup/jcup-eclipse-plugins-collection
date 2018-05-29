@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JCupEclipsePluginsCollectionPlugin
+Bundle-SymbolicName: de.jcup.eclipse.plugins.collection.plugin;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: de.jcup.eclipse.plugins.collection.plugin.Activator
+Bundle-Vendor: Albert Tregnaghi
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

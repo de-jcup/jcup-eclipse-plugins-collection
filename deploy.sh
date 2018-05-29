@@ -16,4 +16,5 @@ if [ -z "$BINTRAY_API_KEY" ]; then
 	echo "bintray api key not set"
 	show_help_and_exit;
 fi
-./pushToBintray.sh ${BINTRAY_USER} ${BINTRAY_API_KEY} de-jcup eclipse-plugins-collection update-site current ./updatesite/
+./pushToBintray-composite.sh ${BINTRAY_USER} ${BINTRAY_API_KEY} de-jcup eclipse-plugins-collection-composite update-site current ./de.jcup.eclipse.plugins.collection.compositesite/updatesite/
+./pushToBintray.sh ${BINTRAY_USER} ${BINTRAY_API_KEY} de-jcup eclipse-plugins-collection-internal update-site current ./de.jcup.eclipse.plugins.collection.updatesite

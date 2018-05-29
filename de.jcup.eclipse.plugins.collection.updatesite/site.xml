@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Update site for the JCUP plugins collection plugin itself">
+      This is the update site for the collection plugin + feature itself.
+   </description>
+   <feature url="features/de.jcup.eclipse.plugins.collection.feature_1.0.0.jar" id="de.jcup.eclipse.plugins.collection.feature" version="1.0.0"/>
+</site>
